@@ -7,7 +7,7 @@ import { NodeGlobalsPolyfillPlugin } from '@esbuild-plugins/node-globals-polyfil
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'https://konradge.github.io/game-library/',
+  base: '/game-library/',
   plugins: [
     vue(),
     NodeGlobalsPolyfillPlugin({
