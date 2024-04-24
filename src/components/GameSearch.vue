@@ -50,7 +50,7 @@ onMounted(async () => {
 
 const search = ref('')
 
-function onDataTableClicked(_, { item }: { item: Game }) {
+function onDataTableClicked(_: unknown, { item }: { item: Game }) {
   selectedGame.value = item
   console.log(item)
 }
